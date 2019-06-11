@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	int a;
-	scanf("%d",&a);
-	if(a>0)
+	int n;
+	scanf("%d",&n);
+	if(n>0)
 	{
 		
-	if(a%2==0)
+	if(n%2==0)
 	{
 		printf("Even");
 	}
