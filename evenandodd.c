@@ -6,7 +6,6 @@ int main()
 	if(a>0)
 	{
 		
-	printf("Valid")
 	if(a%2==0)
 	{
 		printf("Even");
