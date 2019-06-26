@@ -5,7 +5,7 @@ int main()
      scanf("%c",&A);
      if((A>='a')&&(A<='z'))
      {
-     	if(A=='a'||'e'||'i'||'o'||'u')
+     	if((A=='a')||(A=='e')||(A=='i')||(A=='o')||(A=='u'))
      	{
      	    printf("Vowel");	
 		}
@@ -19,5 +19,3 @@ int main()
 	 	 printf("invalid");	
 	 } 
 	 return 0;
-	 
-}
