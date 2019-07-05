@@ -17,7 +17,7 @@ int main()
    	}
    		if(count==2)
    			{
-   			printf("%d\n",i);
+   			printf("%d\t",i);
 		   }
 		   count=0;
 	   
