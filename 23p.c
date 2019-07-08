@@ -22,6 +22,6 @@ int main()
 		}
 		
 	}
-	printf("%d",a[N-1]);
+	printf("%d",a[0]);
 	return 0;
 }
