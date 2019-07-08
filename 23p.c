@@ -13,7 +13,7 @@ int main()
 	{
 		for(j=1;j<N;j++)
 		{
-			if(a[i]<a[j])
+			if(a[i]>a[j])
 			{
 			    temp=a[i];  
 			 	a[i]=a[j];
