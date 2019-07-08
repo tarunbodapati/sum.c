@@ -25,7 +25,7 @@ int main()
 	}
 	for(i=0;i<N;i++)
 	{
-	printf("%d",a[i]);
+	printf("%d\t",a[i]);
 }
 	return 0;
 }
