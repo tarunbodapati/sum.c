@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,k=0,h,i,j;
+	int n,k=0,h,i,j,b;
 	int a[n];
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -23,7 +23,7 @@ int main()
 			}
 		}
 	}
-	h=(a[(n/2)+1]+a[n/2])/2;
+	b=(a[(n/2)+1]+a[n/2])/2;
 	printf("%d",h);
 	}
 	else
@@ -40,7 +40,7 @@ int main()
 			}
 		}
 	}
-	h=a[((n-1)/2)+1];
+	b=a[((n-1)/2)+1];
 	printf("%d",h);
 	}
 	return 0;
