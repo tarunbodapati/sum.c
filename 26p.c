@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int N,i,j,temp=0;
-	int a[N];
-	scanf("%d",&N);
-	for( i=0;i<N;i++)
+	int k,i,j,temp=0;
+	int a[k];
+	scanf("%d",&k);
+	for( i=0;i<k;i++)
 	{
 		scanf("%d",&a[i]);
 		
 	}
-	for(i=0;i<N-1;i++)
+	for(i=0;i<k-1;i++)
 	{
-		for(j=i+1;j<N;j++)
+		for(j=i+1;j<k;j++)
 		{
 			if(a[i]>a[j])
 			{
@@ -23,7 +23,7 @@ int main()
 		}
 		
 	}
-	for(i=0;i<N;i++)
+	for(i=0;i<k;i++)
 	{
 	printf("%d\t",a[i]);
 }
