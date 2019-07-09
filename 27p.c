@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int i,c=0,d=0;
+	int i,a=0,d=0;
 	char s[100];
     gets(s);
     for(i=0;i<strlen(s);i++)
@@ -10,7 +10,7 @@ int main()
     	
     	if(isdigit(s[i])!=0)
     	{
-    		c=c+1;
+    		a=a+1;
 		}
 		else if(s[i]=='.')
 		    d=d+1;
