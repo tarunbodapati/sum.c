@@ -6,7 +6,7 @@ int main()
 	scanf("%d %d",&c,&d);
 	a=a-c;
 	b=b-d;
-	printf("%u %u",a,b);
+	printf("%d %d",abs(a),abs(b));
   
 	return 0;
 	
