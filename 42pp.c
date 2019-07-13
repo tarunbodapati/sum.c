@@ -2,10 +2,10 @@
 #include<string.h>
 int main()
 {
-	char c[100],a[100];
+	char d[100],a[100];
 	int x=0,count=0,i,j;
-     scanf("%s %s",&c,&a);
-	for(i=0;c[i]!='\0';i++)
+     scanf("%s %s",&d,&a);
+	for(i=0;d[i]!='\0';i++)
 	{
 		count++;
 	}
@@ -15,7 +15,7 @@ int main()
 	}
 	if(count>x)
 	{
-		puts(c);
+		puts(d);
 	}
 	else
 	{
