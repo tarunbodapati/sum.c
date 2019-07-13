@@ -13,7 +13,7 @@ int main()
 	{
 		x++;
 	}
-	if(count>=x)
+	if(count>x)
 	{
 		puts(c);
 	}
