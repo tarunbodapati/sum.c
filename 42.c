@@ -1,10 +1,10 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
 	char c[100],a[100];
 	int x=0,count=0,i,j;
-	gets(c);
-	gets(a);
+     scanf("%s %s",&c,&a);
 	for(i=0;c[i]!='\0';i++)
 	{
 		count++;
