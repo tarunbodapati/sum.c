@@ -1,6 +1,5 @@
-x=int(input())
-z=int(input())
-c=list(map(int,input().split()))
+x,z = map(int,input().split())
+c = list(map(int,input().split()))
 count=0
 for j in c:
     if (j==z):
