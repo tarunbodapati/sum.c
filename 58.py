@@ -1,11 +1,18 @@
 x,z = map(int,input().split())
 c = list(map(int,input().split()))
-count=0
+count=0;
 for j in c:
     if (j==z):
-       print("yes")
-       break
-    else:
-        print("no")
-        break
+      count+=1
 
+      
+if(count>0):
+    print("yes")
+else:
+    print("no")
+        
+        
+
+
+
+    
